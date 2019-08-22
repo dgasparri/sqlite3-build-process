@@ -15,7 +15,7 @@
 # The toplevel directory of the source tree.  This is the directory
 # that contains this "Makefile.in" and the "configure.in" script.
 #
-TOP = /home/dgasparri/sqlite3-build-process/build/../sqlite3.29.0
+TOP = /home/dgasparri/sqlite3-build-process/build/../sqlite
 
 # C Compiler and options for use in building executables that
 # will run on the platform that is doing the build.
@@ -114,11 +114,11 @@ HAVE_TCL =
 # This is the command to use for tclsh - normally just "tclsh", but we may
 # know the specific version we want to use
 #
-TCLSH_CMD = tclsh
+TCLSH_CMD = tclsh8.6
 
 # Where do we want to install the tcl plugin
 #
-TCLLIBDIR = $(libdir)/sqlite3
+TCLLIBDIR = /usr/share/tcltk/tcl8.6/sqlite3
 
 # The suffix used on shared libraries.  Ex:  ".dll", ".so", ".dylib"
 #
@@ -164,7 +164,7 @@ LTINSTALL = $(LIBTOOL) --mode=install $(INSTALL)
 # You should not have to change anything below this line
 ###############################################################################
 
-USE_AMALGAMATION = 0
+USE_AMALGAMATION = 1
 
 # Object files for the SQLite library (non-amalgamation).
 #

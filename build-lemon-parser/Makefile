@@ -15,7 +15,7 @@
 # The toplevel directory of the source tree.  This is the directory
 # that contains this "Makefile.in" and the "configure.in" script.
 #
-TOP = /home/dgasparri/sqlite3-build-process/build/../sqlite3.29.0
+TOP = /home/dgasparri/sqlite3-build-process/build-lemon-parser/../sqlite3.29.0
 
 # C Compiler and options for use in building executables that
 # will run on the platform that is doing the build.

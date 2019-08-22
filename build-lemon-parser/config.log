@@ -1105,8 +1105,8 @@ configure:10290: $? = 0
 configure:10290: result: yes
 configure:10290: checking for localtime_s
 configure:10290: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/cc6aKMgf.o: In function `main':
-/home/dgasparri/sqlite3-build-process/build/conftest.c:74: undefined reference to `localtime_s'
+/tmp/ccRCng0l.o: In function `main':
+/home/dgasparri/sqlite3-build-process/build-lemon-parser/conftest.c:74: undefined reference to `localtime_s'
 collect2: error: ld returned 1 exit status
 configure:10290: $? = 1
 configure: failed program was:
@@ -1232,8 +1232,8 @@ configure:10462: checking whether to support threadsafe operation
 configure:10470: result: yes
 configure:10476: checking for library containing pthread_create
 configure:10507: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/cchltF3b.o: In function `main':
-/home/dgasparri/sqlite3-build-process/build/conftest.c:59: undefined reference to `pthread_create'
+/tmp/cc4niggj.o: In function `main':
+/home/dgasparri/sqlite3-build-process/build-lemon-parser/conftest.c:59: undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
 configure:10507: $? = 1
 configure: failed program was:
@@ -1318,8 +1318,8 @@ configure:10841: WARNING: *** Without Tcl the regression tests cannot be execute
 configure:10843: WARNING: *** Consider using --with-tcl=... to define location of Tcl ***
 configure:10937: checking for library containing readline
 configure:10968: gcc -o conftest -g -O2 -DSQLITE_OS_UNIX=1   conftest.c  >&5
-/tmp/cc9sIoSH.o: In function `main':
-/home/dgasparri/sqlite3-build-process/build/conftest.c:59: undefined reference to `readline'
+/tmp/ccis6TuJ.o: In function `main':
+/home/dgasparri/sqlite3-build-process/build-lemon-parser/conftest.c:59: undefined reference to `readline'
 collect2: error: ld returned 1 exit status
 configure:10968: $? = 1
 configure: failed program was:
@@ -1455,8 +1455,8 @@ configure: failed program was:
 configure:10985: result: no
 configure:11012: checking for library containing tgetent
 configure:11043: gcc -o conftest -g -O2 -DSQLITE_OS_UNIX=1   conftest.c  >&5
-/tmp/cc00VYSQ.o: In function `main':
-/home/dgasparri/sqlite3-build-process/build/conftest.c:59: undefined reference to `tgetent'
+/tmp/ccow1qxV.o: In function `main':
+/home/dgasparri/sqlite3-build-process/build-lemon-parser/conftest.c:59: undefined reference to `tgetent'
 collect2: error: ld returned 1 exit status
 configure:11043: $? = 1
 configure: failed program was:
@@ -2184,8 +2184,8 @@ configure:11278: checking for zlib.h
 configure:11278: result: no
 configure:11288: checking for library containing deflate
 configure:11319: gcc -o conftest -g -O2 -DSQLITE_OS_UNIX=1   conftest.c -lpthread  >&5
-/tmp/ccNRy7xT.o: In function `main':
-/home/dgasparri/sqlite3-build-process/build/conftest.c:59: undefined reference to `deflate'
+/tmp/ccohlNsS.o: In function `main':
+/home/dgasparri/sqlite3-build-process/build-lemon-parser/conftest.c:59: undefined reference to `deflate'
 collect2: error: ld returned 1 exit status
 configure:11319: $? = 1
 configure: failed program was:
@@ -2321,8 +2321,8 @@ configure: failed program was:
 configure:11336: result: no
 configure:11359: checking for library containing dlopen
 configure:11390: gcc -o conftest -g -O2 -DSQLITE_OS_UNIX=1   conftest.c -lpthread  >&5
-/tmp/ccLtSHg6.o: In function `main':
-/home/dgasparri/sqlite3-build-process/build/conftest.c:59: undefined reference to `dlopen'
+/tmp/ccJd0cm5.o: In function `main':
+/home/dgasparri/sqlite3-build-process/build-lemon-parser/conftest.c:59: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:11390: $? = 1
 configure: failed program was:
